@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Valentina's Pizza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Valentina's Pizza</h2>
+      </div>
+      <form id="order-form">
+        <div class="form-group">
+          <p>Pick Your Toppings</p>
+          <input type="checkbox" name="pizza-toppings" value="Ham">Ham<br>
+          <input type="checkbox" name="pizza-toppings" value="Blue Cheese">Blue Cheese<br>
+          <input type="checkbox" name="pizza-toppings" value="Chantrelle">Chantrelle<br>
+          <input type="checkbox" name="pizza-toppings" value="Carmelized Onion">Carmelized Onion<br>
+          <input type="checkbox" name="pizza-toppings" value="Red Pepper">Red Pepper<br>
+          <input type="checkbox" name="pizza-toppings" value="Green Olive">Green Olive<br>
+
+        </div>
+        <div class="form-group">
+          <p>Which size pizza would you like?</p>
+          <input type="checkbox" name="sizes" value="Small">Small<br>
+          <input type="checkbox" name="sizes" value="Medium">Medium<br>
+          <input type="checkbox" name="sizes" value="Large">Large<br>
+
+
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="pizza-order">
+        <p><b>You have Ordered a pizza with</b></p>
+      </span>
+      <br>
+      <span id="pizza-size">
+        <p><b>You would like this size pizza</b></p>
+      </span>
+    </div>
+  </body>
+</html>
