@@ -24,22 +24,24 @@
           <input type="checkbox" name="pizza-toppings" value="Green Olive">Green Olive<br>
 
         </div>
-        <div class="form-group">
-          <p>Which size pizza would you like?</p>
-          <input type="checkbox" name="sizes" value="Small">Small<br>
-          <input type="checkbox" name="sizes" value="Medium">Medium<br>
-          <input type="checkbox" name="sizes" value="Large">Large<br>
-
-
-        </div>
-       <button type="submit">Submit Survey</button>
-      </form>
+        <select class="form-control" id="size">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        <br>
+       <button type="submit">Order Here</button>
+     </form>
       <span id="pizza-order">
         <p><b>You have Ordered a pizza with</b></p>
       </span>
       <br>
       <span id="pizza-size">
         <p><b>You would like this size pizza</b></p>
+        <br>
+      </span>
+      <span id="pizza-cost">
+        <p><b>your pizza cost:</b></p>
       </span>
     </div>
   </body>
